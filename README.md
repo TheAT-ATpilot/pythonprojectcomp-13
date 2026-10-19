@@ -1,2 +1,2 @@
 # pythonprojectcomp-13
-Project compellation made up of python the 13 is arbitrary  
+Project compilation made up of python projects. The 13 is arbitrary  
