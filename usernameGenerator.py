@@ -25,3 +25,4 @@ if answer == "y":
         file.write("    ")
         file.write(password)
 else: print("Goodbye.")
+# :)
