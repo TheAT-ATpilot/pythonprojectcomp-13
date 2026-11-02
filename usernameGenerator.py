@@ -1,11 +1,13 @@
 print("Welcome!")
 firstName = input("Enter your first name...")
 lastName = input("Enter your last name...")
+#cuts off the first letter of the first name
 firstName = firstName[0:1]
 print(firstName)
 username = (firstName + lastName)
 print(username)
 answer = input("This is your username. Is this okay? (y or n)")
+#opens the logins files and appends. If it doesn't exist it makes one then write
 if answer == "y":
     file = open("logins.txt", "a")
     with open("logins.txt") as f:
@@ -18,6 +20,7 @@ if answer == "y":
           "letters, numbers, and special characters.")
     password = input("Enter your password here...")
     print(password)
+    #does the same thing as before, but adds a tab to add some space between the user and password.
     answer = input("This is your password. Is this okay? (y or n)")
     if answer == "y":
         file = open("logins.txt", "a")
